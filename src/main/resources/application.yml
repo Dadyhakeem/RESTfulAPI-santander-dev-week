@@ -18,3 +18,9 @@ spring:
     settings:
       trace: false
       web-allow-others: false
+  # swagger-ui custom path
+  doc:
+    api-docs:
+      enabled: true
+    swagger-ui:
+      path: /swagger-ui.html

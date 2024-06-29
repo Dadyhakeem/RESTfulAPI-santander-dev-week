@@ -1,0 +1,10 @@
+spring: 
+ datasource:
+    url: postgresql://postgres:XFnCrNklPFMUJTidwQrcDQnIdzTImyUa@monorail.proxy.rlwy.net:15198/railway
+    username: postgres
+    password: XFnCrNklPFMUJTidwQrcDQnIdzTImyUa
+    jpa:
+
+      open-inview: false
+      hibernate:
+      ddl-auto: vcreate
